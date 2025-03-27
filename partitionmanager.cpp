@@ -113,9 +113,9 @@ extern "C" {
 #endif
 
 #ifdef AB_OTA_UPDATER
-#include <android/hardware/boot/1.0/IBootControl.h>
-using android::hardware::boot::V1_0::CommandResult;
-using android::hardware::boot::V1_0::IBootControl;
+#include <BootControlClient.h>
+using android::hal::BootControlClient;
+using android::hal::CommandResult;
 #endif
 
 using android::fs_mgr::DestroyLogicalPartition;
@@ -3302,17 +3302,15 @@ void TWPartitionManager::Set_Active_Slot(const string& Slot) {
 	LOGINFO("Setting active slot %s\n", Slot.c_str());
 #ifdef AB_OTA_UPDATER
 	if (!Active_Slot_Display.empty()) {
-		android::sp<IBootControl> module = IBootControl::getService();
+		const auto module = BootControlClient::WaitForService();
 		if (module == nullptr) {
 			LOGERR("Error getting bootctrl module.\n");
 		} else {
-			uint32_t slot_number = 0;
+			int32_t slot_number = 0;
 			if (Slot == "B")
 				slot_number = 1;
-			CommandResult result;
-			auto ret = module->setActiveBootSlot(slot_number, [&result]
-					(const CommandResult &cb_result) { result = cb_result; });
-			if (!ret.isOk() || !result.success)
+			CommandResult result = module->SetActiveBootSlot(slot_number);
+			if (!result.success)
 				gui_msg(Msg(msg::kError, "unable_set_boot_slot=Error changing bootloader boot slot to {1}")(Slot));
 		}
 		DataManager::SetValue("tw_active_slot", Slot); // Doing this outside of this if block may result in a seg fault because the DataManager may not be ready yet
