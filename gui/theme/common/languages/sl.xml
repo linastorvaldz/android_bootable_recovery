@@ -69,10 +69,10 @@
 		<string name="install_select_file_hdr">Izberite datoteko</string>
 		<string name="file_selector_folders_hdr">Mape</string>
 		<string name="select_file_from_storage">Izberite datoteko iz %tw_storage_display_name% (%tw_storage_free_size% MB)</string>
-		<string name="adb_sideload_btn">Stransko nalaganje ADB</string>
+		<string name="adb_sideload_btn">Str. nalaganje ADB</string>
 		<string name="install_hdr">Namesti</string>
 		<string name="select_storage_hdr">Izberite pomnilniško napravo</string>
-		<string name="select_storage_btn">Izberite pom. napravo</string>
+		<string name="select_storage_btn">Izberi pom. napravo</string>
 		<string name="queue_hdr">Čakalna vrsta</string>
 		<string name="zip_queue_count">%tw_zip_queue_count% od največ 10 datotek v čakalni vrsti</string>
 		<string name="zip_queue_count_s">Datoteka %tw_zip_queue_count% od 10:</string>
@@ -94,8 +94,8 @@
 		<string name="zip_clear_btn">Počisti čakalno vrsto ZIP-ov</string>
 		<string name="install_zip_count_hdr">Namesti ZIP %tw_zip_index% od %tw_zip_queue_count%</string>
 		<string name="installing_zip_xml">Nameščanje ZIP-a: %tw_file%</string>
-		<string name="failed">Spodletelo</string>
-		<string name="successful">Uspelo</string>
+		<string name="failed">Spodletelo.</string>
+		<string name="successful">Uspelo.</string>
 		<string name="install_failed">Namestitev je spodletela</string>
 		<string name="install_successful">Namestitev je uspela</string>
 		<string name="wipe_cache_dalvik_btn">Počisti predpomnilnik/Dalvik</string>
@@ -149,7 +149,7 @@
 		<string name="formatting_data">Formatiranje podatkov …</string>
 		<string name="swipe_format_data">Povlecite za formatiranje podatkov</string>
 		<string name="swipe_format_data_s">   Formatiraj podatke</string>
-		<string name="factory_reset_complete">Ponastavitev na tovarniške vrednosti končana</string>
+		<string name="factory_reset_complete">Ponastavitev na tovarniške vrednosti je končana.</string>
 		<string name="sel_part_hdr">Izberite razdelke</string>
 		<string name="wipe_sel_confirm">Počisti izbrane razdelke?</string>
 		<string name="wiping_part">Čiščenje razdelkov …</string>
@@ -167,7 +167,7 @@
 		<string name="format_data_wtc1">Formatiranje podatkov bo počistilo vse programe,</string>
 		<string name="format_data_wtc2">varnostne kopije in predstavnost.  Tega ni mogoče razveljaviti.</string>
 		<string name="format_data_undo">Tega ni mogoče razveljaviti.</string>
-		<string name="format_data_complete">Formatiranje podatkov končano</string>
+		<string name="format_data_complete">Formatiranje podatkov je končano.</string>
 		<!-- Translator note: the word "yes" must remain English! -->
 		<string name="yes_continue">Vtipkajte \'yes\' za nadaljevanje.  Pritisnite Nazaj za preklic.</string>
 		<string name="part_opt_hdr">Možnosti razdelkov za: %tw_partition_name%</string>
@@ -188,7 +188,7 @@
 		<string name="resize_btn_s">Spr. velik.</string>
 		<string name="resize_confirm">Spremeni velikost %tw_partition_name%?</string>
 		<string name="resizing">Spreminjanje velikosti …</string>
-		<string name="resize_complete">Spreminjanje velikosti končano</string>
+		<string name="resize_complete">Spreminjanje velikosti je končano.</string>
 		<string name="swipe_resize">Povlecite za spr. velikosti</string>
 		<string name="swipe_resize_s">   Spr. velikost</string>
 		<string name="repair_btn">Popravi datotečni sistem</string>
@@ -206,12 +206,12 @@
 		<string name="change_fs_warn2">datotečnih sistemov.  Nadaljujte previdno!</string>
 		<string name="change_fs_confirm">Spremeni %tw_partition_name%?</string>
 		<string name="formatting">Formatiranje …</string>
-		<string name="format_complete">Formatiranje končano</string>
+		<string name="format_complete">Formatiranje je končano.</string>
 		<string name="swipe_change_fs">Povlecite za spremembo</string>
 		<string name="swipe_change_s">   Spremeni</string>
 		<string name="back_btn">Nazaj</string>
 		<string name="wipe_enc_btn">Počisti šifriranje</string>
-		<string name="swipe_factory_reset">Povlecite za ponastavitev na tov. vrednosti</string>
+		<string name="swipe_factory_reset">Povlecite za ponast. na tov. vrednosti</string>
 		<string name="repair_change_btn">Popravi ali Spremeni datotečni sistem</string>
 		<string name="storage_hdr">Pomnilniška naprava: %tw_storage_display_name% (%tw_storage_free_size% MB)</string>
 		<string name="backup_hdr">Var. kopiraj</string>
@@ -256,7 +256,7 @@
 		<string name="del_backup_confirm">Izbriši varnostno kopijo?</string>
 		<string name="del_backup_confirm2">Tega ni mogoče razveljaviti!</string>
 		<string name="deleting_backup">Brisanje varnostne kopije …</string>
-		<string name="backup_deleted">Brisanje varnostne kopije končano</string>
+		<string name="backup_deleted">Brisanje varnostne kopije je končano.</string>
 		<string name="swipe_delete">Povlecite za izbris</string>
 		<string name="swipe_delete_s">   Izbriši</string>
 		<string name="restore_try_decrypt">Šifrirana varnostna kopija - poizkušanje odšifriranja</string>
@@ -264,7 +264,7 @@
 		<string name="restore_backup_date">Varnostna kopija ustvarjena %tw_restore_file_date%</string>
 		<string name="restore_sel_part">Izberite razdelke za obnovitev:</string>
 		<string name="restore_enable_digest_chk" version="2">Omogoči preverjanje razpršila varnostnih kopij</string>
-		<string name="restore_complete">Obnavljanje končano</string>
+		<string name="restore_complete">Obnavljanje je končano.</string>
 		<string name="swipe_restore">Povlecite za obnovitev</string>
 		<string name="swipe_restore_s">   Obnovi</string>
 		<string name="rename_backup_hdr">Preimenuj varnostno kopijo</string>
@@ -316,7 +316,7 @@
 		<string name="settings_gen_hdr">Splošno</string>
 		<string name="settings_gen_s_hdr">Splošno</string>
 		<string name="settings_gen_btn">Splošno</string>
-		<string name="use_rmrf_chk">Namesto formatiranja uporabite rm -rf</string>
+		<string name="use_rmrf_chk">Namesto formatiranja uporabi rm -rf</string>
 		<string name="auto_reflashtwrp_chk">Po namestitvi ROM-a samodejno ponovno namesti TWRP</string>
 		<string name="use24clock_chk">Uporabi 24-urno obliko</string>
 		<string name="rev_navbar_chk">Obratna razporeditev vrstice za krmarjenje</string>
@@ -375,9 +375,9 @@
 		<string name="enable_timeout_chk">Omogoči časovno omejitev zaslona</string>
 		<string name="screen_to_slider">Časovna omejitev zaslona v sekundah:</string>
 		<string name="screen_to_slider_s">Časovna omejitev zaslona v sekundah: (0 = onemogočeno): %tw_screen_timeout_secs%</string>
-		<string name="screen_to_na">Nastavitev časovne omejitve zaslona ni na voljo</string>
+		<string name="screen_to_na">Nastavitev časovne omejitve zaslona ni na voljo.</string>
 		<string name="screen_bright_slider">Svetlost: %tw_brightness_pct% %</string>
-		<string name="screen_bright_na">Nastavitev svetlosti ni na voljo</string>
+		<string name="screen_bright_na">Nastavitev svetlosti ni na voljo.</string>
 		<string name="vibration_hdr">Vibriranje</string>
 		<string name="button_vibration_hdr">Vibriranje gumbov</string>
 		<string name="kb_vibration_hdr">Vibriranje tipkovnice</string>
@@ -391,7 +391,7 @@
 		<string name="advanced_hdr">Napredno</string>
 		<string name="copy_log_confirm">Kopiraj dnevnik na kartico SD?</string>
 		<string name="copying_log" version="2">Kopiranje dnevnika na kartico SD …</string>
-		<string name="copy_log_complete" version="2">Kopiranje dnevnika končano</string>
+		<string name="copy_log_complete" version="2">Kopiranje dnevnika je končano.</string>
 		<string name="fix_context_btn">Popravi vsebine</string>
 		<string name="part_sd_btn">Razdeli kartico SD</string>
 		<string name="part_sd_s_btn">Kartica SD</string>
@@ -402,10 +402,10 @@
 		<string name="inject_twrp_btn">Vstavi TWRP</string>
 		<string name="inject_twrp_confirm">Ponovno vstavi TWRP?</string>
 		<string name="injecting_twrp">Ponovno vstavljanje TWRP-ja …</string>
-		<string name="inject_twrp_complete">Vstavljanje TWRP-ja končano</string>
+		<string name="inject_twrp_complete">Vstavljanje TWRP-ja je končano.</string>
 		<string name="swipe_to_confirm">Povlecite za potrditev</string>
 		<string name="part_sd_hdr">Razdeli kartico SD</string>
-		<string name="invalid_partsd_sel">Izbrati morate odstranljivo napravo</string>
+		<string name="invalid_partsd_sel">Izbrati morate odstranljivo napravo!</string>
 		<string name="part_sd_lose">Izgubili boste vse datoteke na kartici SD!</string>
 		<string name="part_sd_undo">Tega dejanja ni mogoče razveljaviti!</string>
 		<string name="part_sd_ext_sz">Velikost EXT:</string>
@@ -417,7 +417,7 @@
 		<string name="swipe_part_sd_s">Razdelek</string>
 		<string name="partitioning_sd">Razdeljevanje kartice SD …</string>
 		<string name="partitioning_sd2">To bo trajalo nekaj minut.</string>
-		<string name="part_sd_complete">Razdeljevanje končano</string>
+		<string name="part_sd_complete">Razdeljevanje je končano.</string>
 		<string name="swipe_to_unlock">Povlecite za odklepanje</string>
 		<string name="swipe_unlock">   Odkleni</string>
 		<string name="fm_hdr">Upravljalnik datotek</string>
@@ -463,11 +463,11 @@
 		<string name="adb_sideload_hdr">Stransko nalaganje ADB</string>
 		<string name="sideload_wipe_dalvik_chk">Počisti predpomnilnik Dalvik</string>
 		<string name="sideload_wipe_cache_chk">Počisti predpom.</string>
-		<string name="swipe_to_sideload">Povlecite za začetek stranskega nalaganja</string>
+		<string name="swipe_to_sideload">Povlecite za začetek str. nalaganja</string>
 		<string name="swipe_sideload">   Začni</string>
 		<string name="sideload_confirm">Stransko nalaganje ADB</string>
 		<string name="sideload_usage">Uporaba: adb sideload filename.zip</string>
-		<string name="sideload_complete">Stransko nalaganje ADB končano</string>
+		<string name="sideload_complete">Stransko nalaganje ADB je končano.</string>
 		<string name="fix_contexts_hdr">Popravi vsebine</string>
 		<string name="fix_contexts_note1">Opomba: vsebine je treba popraviti le v redkih primerih.</string>
 		<string name="fix_contexts_note2">Popravilo vsebin SELinux lahko povzroči</string>
@@ -498,7 +498,7 @@
 		<string name="unpacking_image">Razširjanje {1} …</string>
 		<string name="repacking_image">Ponovno stiskanje {1} …</string>
 		<string name="repack_image_hdr">Izberite odtis</string>
-		<string name="repack_overwrite_warning">Če je bil na napravi prej nameščen skrbniški dostop, je bil sedaj prepisan in ga bo treba ponovno nemstiti.</string>
+		<string name="repack_overwrite_warning">Če je bil na napravi prej nameščen skrbniški dostop, je bil sedaj prepisan in ga bo treba ponovno namestiti.</string>
 		<string name="reflash_twrp">Namesti trenutni TWRP</string>
 		<string name="reflash_twrp_confirm">Namesti trenutni TWRP?</string>
 		<string name="reflashing_twrp">Nameščanje TWRP-ja …</string>
@@ -527,7 +527,7 @@
 		<string name="no_kernel_selinux">Jedro nima podpore za branje vsebin SELinux.</string>
 		<string name="full_selinux">Prisotna je polna podpora za SELinux.</string>
 		<string name="no_selinux">Ni podpore za SELinux (libselinux manjka).</string>
-		<string name="mtp_enabled">MTP omogočen</string>
+		<string name="mtp_enabled">MTP je omogočen.</string>
 		<string name="mtp_crash">MTP se je sesul, MTP se ob zagonu ne bo začel.</string>
 		<string name="decrypt_success">Uspešno odšifrirano s privzetim geslom.</string>
 		<string name="unable_to_decrypt">Odšifriranje s privzetim geslom ni mogoče.  Morda boste moral sformatirati podatke.</string>
@@ -576,13 +576,13 @@
 		<string name="wiping_dalvik">Čiščenje map predpomnilnika Dalvik …</string>
 		<string name="cleaned">Počiščeno: {1} …</string>
 		<string name="cache_dalvik_done">-- Čiščenje map prepomnilnika Dalvik je končano!</string>
-		<string name="dalvik_done">-- Čiščenje map predpomnilnika Dalvik končano!</string>
+		<string name="dalvik_done">-- Čiščenje map predpomnilnika Dalvik je končano!</string>
 		<string name="no_andsec">Varnih razdelkov Android ni bilo mogoče najti.</string>
 		<string name="unable_to_locate">{1} ni mogoče najti.</string>
 		<string name="wiping_datamedia">Čiščenje notranje pomnilniške naprave -- /data/media …</string>
 		<string name="unable_to_mount">{1} ni mogoče priklopiti.</string>
-		<string name="unable_to_mount_internal">Notranje pomnilniške naprave ni mogoče priklopiti</string>
-		<string name="unable_to_mount_storage">Pomnilniške naprave ni mogoče priklopiti</string>
+		<string name="unable_to_mount_internal">Notranje pomnilniške naprave ni mogoče priklopiti.</string>
+		<string name="unable_to_mount_storage">Pomnilniške naprave ni mogoče priklopiti.</string>
 		<string name="fail_decrypt">Odšifriranje podatkov je spodletelo.</string>
 		<string name="no_crypto_support">Podpora za šifriranje ni bila vgrajena v to izgradnjo.</string>
 		<string name="decrypt_success_dev">Podatki so bili uspešno odšifrirani, nova bločna naprava: \'{1}\'</string>
@@ -596,18 +596,18 @@
 		<string name="create_part">Ustvarjanje razdelka {1} …</string>
 		<string name="unable_to_create_part">Razdelka {1} ni mogoče ustvariti.</string>
 		<string name="format_sdext_as">Formatiranje SD-EXT kot {1} …</string>
-		<string name="part_complete">Razdeljevanje končano.</string>
+		<string name="part_complete">Razdeljevanje je končano.</string>
 		<string name="unable_to_open">\'{1}\' ni mogoče odpreti.</string>
-		<string name="mtp_already_enabled">MTP je že omogočen</string>
-		<string name="mtp_fail">Omogočanje MTP-ja je spodletelo</string>
-		<string name="no_mtp">Podpora za MTP ni vključena</string>
+		<string name="mtp_already_enabled">MTP je že omogočen.</string>
+		<string name="mtp_fail">Omogočanje MTP-ja je spodletelo.</string>
+		<string name="no_mtp">Podpora za MTP ni vključena.</string>
 		<string name="image_flash_start">[NAMESTITEV ODTISA SE JE ZAČELA]</string>
 		<string name="img_to_flash">Odtis za namestitev: \'{1}\'</string>
 		<string name="flash_unable_locate">Razdelka \'{1}\' za namestitev ni mogoče najti.</string>
 		<string name="no_part_flash">Ni izbranih razdelkov za namestitev.</string>
 		<string name="too_many_flash">Izbranih preveč razdelkov za namestitev.</string>
 		<string name="invalid_flash">Naveden neveljaven razdelek za namestitev.</string>
-		<string name="flash_done">[NAMESTITEV ODTISA KONČANA]</string>
+		<string name="flash_done">[NAMESTITEV ODTISA JE KONČANA]</string>
 		<string name="wiping">Čiščenje {1}</string>
 		<string name="repair_not_exist">{1} ne obstaja!  Popravilo ni mogoče!</string>
 		<string name="repairing_using">Popravljanje {1} s/z {2} …</string>
@@ -641,9 +641,9 @@
 		<string name="restoring">Obnavljanje {1} …</string>
 		<string name="restoring_hdr">Obnavljanje</string>
 		<string name="recreate_folder_err">Mape {1} ni mogoče ponovno ustvariti.</string>
-		<string name="img_size_err">Velikost odtisa je večja od ciljne naprave</string>
+		<string name="img_size_err">Velikost odtisa je večja od ciljne naprave.</string>
 		<string name="flashing">Nameščanje {1} …</string>
-		<string name="backup_folder_set">Mapa varnostnega kopiranja nastavljena na \'{1}\'</string>
+		<string name="backup_folder_set">Mapa varnostnega kopiranja je nastavljena na \'{1}\'.</string>
 		<string name="locate_backup_err">Varnostne kopije \'{1}\' ni mogoče najti</string>
 		<string name="set_restore_opt">Nastavljanje možnosti za varnostno kopiranje: \'{1}\':</string>
 		<string name="digest_check_skip" version="2">Preskak. preverjanja razpršila je vkl.</string>
@@ -659,11 +659,11 @@
 		<string name="running_command">Izvajanje ukaza</string>
 		<string name="sideload">Stransko nalaganje ADB</string>
 		<string name="start_sideload">Začenjanje značilnosti stranskega nalaganja ADB …</string>
-		<string name="need_new_adb">Za stransko nalaganje na to napravo potrebujete ADB 1.0.32 ali novejši</string>
+		<string name="need_new_adb">Za stransko nalaganje na to napravo potrebujete ADB 1.0.32 ali novejši.</string>
 		<string name="no_pwd">Geslo ni bilo navedeno.</string>
-		<string name="done_ors">Obdelava datoteke skripta je končana</string>
+		<string name="done_ors">Obdelava datoteke skripta je končana.</string>
 		<string name="injecttwrp">Vstavljanje TWRP-ja v zagonski odtis …</string>
-		<string name="zip_err">Napaka pri nameščanju datoteke ZIP \'{1}\'</string>
+		<string name="zip_err">Napaka pri nameščanju datoteke ZIP \'{1}\'.</string>
 		<string name="installing_zip">Nameščanje datoteke ZIP \'{1}\'</string>
 		<string name="select_backup_opt">Nastavljanje možnosti varnostnega kopiranja:</string>
 		<string name="compression_on">Stiskanje je vklopljeno</string>
@@ -671,17 +671,17 @@
 		<string name="backup_fail">Var. kop. je spodletelo</string>
 		<string name="backup_clean">Varnostno kopiranje je spodletelo. Čiščenje mape varnostnega kopiranja.</string>
 		<string name="running_recovery_commands">Izvajanje ukazov za obnovitev</string>
-		<string name="recovery_commands_complete">Ukazi za obnovitev kočani</string>
+		<string name="recovery_commands_complete">Ukazi za obnovitev so končani.</string>
 		<string name="running_ors">Izvajanje OpenRecoveryScript</string>
-		<string name="ors_complete">OpenRecoveryScript končan</string>
+		<string name="ors_complete">OpenRecoveryScript je končan.</string>
 		<string name="check_for_digest" version="2">Preverjanje za datoteko razpršila …</string>
 		<string name="invalid_zip_format">Neveljavna datoteka oblike ZIP!</string>
-		<string name="fail_sysmap">Preslikava datoteke \'{1}\' je spodletela</string>
+		<string name="fail_sysmap">Preslikava datoteke \'{1}\' je spodletela.</string>
 		<string name="verify_zip_sig">Preverjanje podpisa ZIP</string>
 		<string name="verify_zip_fail">Preverjanje podpisa ZIP je spodletelo!</string>
 		<string name="verify_zip_done">Preverjanje podpisa ZIP je bilo uspešno!</string>
 		<string name="zip_corrupt">Datoteka ZIP je poškodovana!</string>
-		<string name="no_digest" version="2">Preskakovanje preverjanja razpršila: datoteke razpršila ni bilo mogoče najti</string>
+		<string name="no_digest" version="2">Preskakovanje preverjanja razpršila: datoteke razpršila ni bilo mogoče najti.</string>
 		<string name="digest_fail" version="2">Razpršilo se ne ujema.</string>
 		<string name="digest_match" version="2">Razpršilo se ujema.</string>
 		<string name="pid_signal">{1} opravilo se je končalo s signalom: {2}</string>
@@ -695,10 +695,10 @@
 		<!-- These 2 items are saved in the data manager instead of resource manager, so %llu, etc is correct instead of {1} -->
 		<string name="file_progress">%llu od %llu datotek, %i %%</string>
 		<string name="size_progress">%llu MB od %llu MB, %i %%</string>
-		<string name="decrypt_cmd" version="2">Poizkušanje odšifriranja podatkovnega razdelka preko ukazne vrstice.</string>
+		<string name="decrypt_cmd" version="2">Poizkušanje odšifriranja podatkovnega razdelka preko ukazne vrstice</string>
 		<string name="base_pkg_err">Nalaganje osnovnih paketov je spodletelo.</string>
 		<string name="simulating">Simuliranje dejanj …</string>
-		<string name="backup_cancel">Varnostno kopiranje preklicano</string>
+		<string name="backup_cancel">Varnostno kopiranje je bilo preklicano.</string>
 		<string name="config_twrp">Nastavljanje TWRP-ja …</string>
 		<string name="config_twrp_err">TWRP-ja ni mogoče nastaviti s tem jedrom.</string>
 		<string name="copy_log">Dnevnik obnovitve kopiran v {1}.</string>
@@ -707,12 +707,12 @@
 		<string name="screenshot_saved">Zaslonska slika je bila shranjena v {1}</string>
 		<string name="screenshot_err">Zajem zaslonske slike je spodletel!</string>
 		<string name="zip_wipe_cache">Eden ali več ZIP-ov je zahteval čiščenje predpomnilnika -- čiščenje.</string>
-		<string name="and_sec_wipe_err">Varnega razdelka Android ni mogoče počistiti</string>
-		<string name="dalvik_wipe_err">Čiščenje Dalvika je spodletelo</string>
+		<string name="and_sec_wipe_err">Varnega razdelka Android ni mogoče počistiti.</string>
+		<string name="dalvik_wipe_err">Čiščenje Dalvika je spodletelo.</string>
 		<string name="auto_gen">(samodejno ustvari)</string>
 		<string name="curr_date">(trenutni datum)</string>
 		<string name="backup_name_len">Ime varnostne kopije je predolgo.</string>
-		<string name="backup_name_invalid">Ime varnostne kopije \'{1}\' vsebuje neveljavni znak: \'{1}\'</string>
+		<string name="backup_name_invalid">Ime varnostne kopije \'{1}\' vsebuje neveljavni znak: \'{1}\'.</string>
 		<string name="no_real_sdcard">Ta naprava nima resnične kartice SD!  Prekinjanje!</string>
 		<string name="cancel_sideload">Preklicevanje stranskega nalaganja ADB …</string>
 		<string name="change_fs_err">Napaka pri spreminjanju datotečnega sistema.</string>
